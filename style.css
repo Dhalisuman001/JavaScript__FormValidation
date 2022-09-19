@@ -1,0 +1,39 @@
+body{
+    background: #3494E6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EC6EAD, #3494E6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.col-md-5{
+    margin-top: 10% !important;
+    background-color: aliceblue !important;
+    border-radius: 10px !important;
+}
+h1{
+    color: black;
+    margin-bottom: 8px;
+}
+input{
+    margin: 6px 0px !important;
+    padding: 20px;
+    border-radius: 15px !important;
+    /* border: 1px solid black !important; */
+}
+button{
+    margin-top: 23px  !important;
+    float: left;
+}
+.success{
+    border: 2px solid green !important;
+}
+.error{
+    border: 2px solid red !important;
+}
+small{
+    color: red;
+    font-weight: bold;
+    margin: 5px;
+    text-align: start ;
+}
